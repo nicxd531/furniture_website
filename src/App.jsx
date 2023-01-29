@@ -14,7 +14,7 @@ import LogIn from './main/log/LogIn';
 import SignUp from './main/log/SignUp';
 import SupportAdmin from './main/Live-chat-admin/SupportAdmin';
 
-
+// rename
 export const DataContext = createContext();
 function App() {
   const [cartArray,setCartArray] = useState([]) ;
