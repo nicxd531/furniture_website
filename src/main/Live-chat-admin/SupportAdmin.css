@@ -1,0 +1,12 @@
+.support-Admin {
+  background: url(../img/living-room-with-yellow-armchair-empty-dark-blue-wall-background-3d-rendering.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 100px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

@@ -1,0 +1,56 @@
+.contact_us_container{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+}
+
+.left_box{
+    color: #fff;
+    height: 100%;
+    width: 50%;
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items:center;
+    padding-left: 100px;
+    /* border-right: 2px solid purple; */
+}
+
+.left_header{
+    font-size: 30px;
+    font-weight: 700;
+}
+.contact_link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    justify-content: center ;
+    background-color: #000000bb;
+}
+
+.input_field{
+    width: 70%;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.textarea_field{
+    height: 100px;
+}
+.submit_button{
+    color: #fff;
+    border: 0px;
+    background-color: black;    
+}
+.submit_button:hover{
+    background-color: purple;
+}

@@ -1,0 +1,47 @@
+.empty_cart_div {
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 100vh;
+}
+.empty_cart_div img {
+  background-color: red; /* anthony herreeeeeee div img affecting every one fixed it buh check the css property*/
+  width: 250px;
+  height: 250px;
+}
+.empty_cart_image {
+  width: 250px;
+  height: 250px;
+}
+
+.empty_cart_p {
+  font-size: xx-large;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.empty_cart_button {
+  background-color: black;
+  color: #fff;
+  font-size: larger;
+  border-width: 0px;
+  padding: 20px;
+  transition: 0.5 ease-in;
+}
+.empty_cart_button:hover {
+  color: #fff;
+  background-color: #800080;
+}
+.mainCart {
+  height: 100vh;
+  background: url(../img/living-room-with-yellow-armchair-empty-dark-blue-wall-background-3d-rendering.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 100px;
+  color: black;
+}
