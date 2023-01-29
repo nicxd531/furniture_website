@@ -1,4 +1,4 @@
-import "./loading.css"
+import "./Loading.css"
 const Loading1 = () => {
     return ( 
         <section className="mainloading1">
